@@ -1,0 +1,46 @@
+.Header {
+  height: 50px;
+  padding: 8px;
+  /* border: 2px solid yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Box1 */
+.Header-Left {
+  display: flex;
+  align-items: center;
+}
+.HeaderLeft-Icon {
+  padding: 8px;
+}
+.Header-Left > img {
+  height: 40px;
+  object-fit: contain;
+}
+
+/* Box 2 */
+.Header-Middle {
+  display: flex;
+  align-items: center;
+  flex: 0.5;
+  border-radius: 10px;
+  background-color: #eaf1fb;
+  color: grey;
+  padding: 0 10px;
+}
+.Header-Middle > input {
+  width: 500px;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+
+/* Box3 */
+.Header-Right{
+  display: flex;
+  align-items: center;
+}

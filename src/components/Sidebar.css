@@ -1,0 +1,35 @@
+.Sidebar {
+  flex: 0.23;
+  cursor: pointer;
+}
+.Sidebar-Icon {
+  background-color: #c2e7ff;
+  width: fit-content;
+  padding: 10px;
+  margin-left: 10px;
+  display: flex;
+  border-radius: 15px;
+  color: grey;
+}
+.Sidebar-Icon > button {
+  font-size: 15px;
+  padding-left: 5px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.Sidebar-Icon:hover {
+  transform: scale(1);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Sidebar-Footer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 10px;
+}
+.SidebarFooter-Icon {
+  padding-left: 12px;
+  padding-right: 40px;
+}
